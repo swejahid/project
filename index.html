@@ -10,185 +10,261 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="galaxy-bg"></div>
 
-  <header class="header">
-    <div class="container portfolio-container">
-      <nav class="navbar navbar-expand justify-content-between align-items-center py-2">
-        <a class="navbar-brand" href="#">
-          <img src="icons/logo.png" alt="Logo" class="logo">
+<div class="galaxy-bg"></div>
+
+<header class="header">
+  <div class="container portfolio-container">
+    <nav class="navbar navbar-expand-lg py-3">
+
+      <a class="navbar-brand" href="#">
+        <img src="icons/logo.png" alt="Logo" class="logo">
+      </a>
+
+      <div class="ms-auto socials">
+        <a href="https://github.com/swejahid" target="_blank">
+          <i class="bi bi-github"></i>
         </a>
 
-        <div class="socials">
-  <a href="https://github.com/swejahid" target="_blank">
-    <i class="bi bi-github"></i>
-  </a>
+        <a href="#">
+          <i class="bi bi-linkedin"></i>
+        </a>
 
-  <a href="#">
-    <i class="bi bi-linkedin"></i>
-  </a>
+        <a href="#">
+          <i class="bi bi-youtube"></i>
+        </a>
 
-  <a href="#">
-    <i class="bi bi-youtube"></i>
-  </a>
+        <a href="#contact" class="small-btn">Resume</a>
+      </div>
 
-  <a href="#" class="small-btn">Resume</a>
-</div>
-  </header>
+    </nav>
+  </div>
+</header>
 
-  <main class="container portfolio-container">
-    <section class="hero row align-items-start">
-      <div class="col-7 hero-text">
-        <h1>HI !</h1>
-        <h2>I'm Jahid Hossain</h2>
-        <h5>Web Developer || React Developer || Programmer</h5>
+<main class="container portfolio-container">
+
+  <!-- HERO -->
+  <section class="hero row align-items-center">
+
+    <div class="col-md-7 hero-text">
+
+      <h1>HI !</h1>
+      <h2>I'm Jahid Hossain</h2>
+
+      <h5>
+        Web Developer || React Developer || Programmer
+      </h5>
+
+      <p>
+        I am an enthusiastic JavaScript developer with working some framework
+        for the frontend and backend. I know basic PHP and MySQL but
+        basically a MERN developer.
+      </p>
+
+      <div class="socials mt-4">
+        <a href="https://github.com/swejahid" target="_blank">
+          <i class="bi bi-github"></i>
+        </a>
+
+        <a href="#">
+          <i class="bi bi-linkedin"></i>
+        </a>
+
+        <a href="#">
+          <i class="bi bi-youtube"></i>
+        </a>
+      </div>
+
+    </div>
+
+    <div class="col-md-5 text-center text-md-end mt-4 mt-md-0">
+      <img src="images/jahid.jpg" alt="Jahid Hossain" class="profile-img">
+    </div>
+
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="portfolio-section">
+
+    <h2 class="section-title">Portfolio</h2>
+
+    <div class="project-card">
+
+      <img src="projects-img/travel-guru-map.png"
+           alt="Travel Guru"
+           class="project-img">
+
+      <div class="project-info">
+
+        <h3>
+          Online University
+
+          <a href="https://swejahid.github.io/project/" target="_blank">
+            <i class="bi bi-globe"></i>
+          </a>
+
+          <a href="https://github.com/swejahid/project" target="_blank">
+            <i class="bi bi-github"></i>
+          </a>
+        </h3>
+
         <p>
-          I am an enthusiastic JavaScript developer with working some framework for the
-          frontend and the backend. I know Basic PHP and MySQL but basically a MERN developer.
+          Travel service website with authentication and booking system.
         </p>
 
-  <div class="galaxy-bg"></div>
+        <div class="tags">
+          <span>React</span>
+          <span>Firebase</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>Node.js</span>
+        </div>
 
-  <header class="header">
-    <div class="container portfolio-container">
-      <nav class="navbar navbar-expand justify-content-between align-items-center py-2">
-        <a class="navbar-brand" href="#">
-          <img src="icons/logo.png" alt="Logo" class="logo">
-        </a>
-
-        <div class="socials">
-  <a href="https://github.com/swejahid" target="_blank">
-    <i class="bi bi-github"></i>
-  </a>
-
-  <a href="#">
-    <i class="bi bi-linkedin"></i>
-  </a>
-
-  <a href="#">
-    <i class="bi bi-youtube"></i>
-  </a>
-
-  <a href="#" class="small-btn">Resume</a>
-</div>
       </div>
+    </div>
 
-      <div class="col-5 text-end">
-        <img src="images/jahid.jpg" alt="Jahid Hossain" class="profile-img">
+    <div class="project-card">
+
+      <img src="projects-img/Travel-Search.png"
+           alt="Travel Search"
+           class="project-img">
+
+      <div class="project-info">
+
+        <h3>
+          Travel Search
+
+          <a href="https://swejahid.github.io/project/" target="_blank">
+            <i class="bi bi-globe"></i>
+          </a>
+
+          <a href="https://github.com/swejahid/project" target="_blank">
+            <i class="bi bi-github"></i>
+          </a>
+        </h3>
+
+        <p>
+          Responsive travel booking platform with modern UI.
+        </p>
+
+        <div class="tags">
+          <span>Bootstrap</span>
+          <span>React</span>
+          <span>Firebase</span>
+          <span>CSS</span>
+        </div>
+
       </div>
-    </section>
+    </div>
 
-    <section id="portfolio" class="portfolio-section">
-      <h2 class="section-title">Portfolio</h2>
+  </section>
 
-      <div class="project-card">
-        <img src="projects-img/travel-guru-map.png" alt="Travel Guru Map" class="project-img">
-        <div class="project-info">
-          <h3>Online University <i class="bi bi-globe"></i> <i class="bi bi-github"></i></h3>
-          <p>This is Travel service Agency website user can login via Facebook sign up, Google Sign-in and also can create an account.</p>
-          <p>User can choose the perfect vehicle as he/she want.</p>
-          <p>User can Login via Google, Facebook, Github or can Create Account.</p>
-          <div class="tags">
-            <span>React</span><span>Firebase</span><span>HTML</span><span>CSS</span><span>NODE</span>
-          </div>
-        </div>
-      </div>
+  <!-- SKILLS -->
+  <section id="skills" class="skills-education">
 
-      <div class="project-card">
-        <img src="projects-img/Travel-Search.png" alt="Travel Search" class="project-img">
-        <div class="project-info">
-         <h3>
-  Online University
+    <div class="skills-left">
 
-  <a href="https://your-live-site.com" target="_blank">
-    <i class="bi bi-globe"></i>
-  </a>
+      <div class="skill-block">
+        <h4>Expertise:</h4>
 
-  <a href="https://github.com/swejahid" target="_blank">
-    <i class="bi bi-github"></i>
-  </a>
-</h3>
-          <p>This is Travel service Agency website user can login via Facebook sign up, Google Sign-in and also can create an account.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <div class="tags">
-            <span>React</span><span>Firebase</span><span>HTML</span><span>CSS</span><span>NODE</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="skills" class="skills-education">
-      <div class="skills-left">
-        <div class="skill-block">
-          <h4>Expertise:</h4>
-          <div class="tags">
-            <span>React.js</span><span>Javascript</span><span>node.js</span><span>Firebase</span>
-            <span>Express.js</span><span>HTML</span><span>Bootstrap</span><span>MongoDB</span>
-          </div>
-        </div>
-
-        <div class="skill-block">
-          <h4>Comfortable:</h4>
-          <div class="tags">
-            <span>SQL</span><span>Redux</span><span>Socket.io</span><span>AWS</span>
-            <span>Docker</span><span>Typescript</span><span>Next.js</span>
-          </div>
-        </div>
-
-        <div class="skill-block">
-          <h4>Familiar:</h4>
-          <div class="tags">
-            <span>C++</span><span>Python</span><span>Spring Boot</span><span>Networking</span>
-          </div>
-        </div>
-
-        <div class="skill-block">
-          <h4>Tools:</h4>
-          <div class="tags">
-            <span>VS CODE</span><span>JIRA</span><span>Trello</span><span>Git</span><span>Git</span>
-          </div>
+        <div class="tags">
+          <span>React.js</span>
+          <span>JavaScript</span>
+          <span>Node.js</span>
+          <span>Firebase</span>
+          <span>Express.js</span>
+          <span>HTML</span>
+          <span>Bootstrap</span>
+          <span>MongoDB</span>
         </div>
       </div>
 
-      <div id="about" class="education">
-        <i class="bi bi-mortarboard-fill"></i>
-        <div>
-          <h3>My Education</h3>
-          <p>B.Sc in Software Engineering,</p>
-          <p>Daffodil International University</p>
-          <p>2024-2028</p>
+      <div class="skill-block">
+        <h4>Comfortable:</h4>
+
+        <div class="tags">
+          <span>SQL</span>
+          <span>Redux</span>
+          <span>Socket.io</span>
+          <span>AWS</span>
+          <span>Docker</span>
+          <span>Typescript</span>
+          <span>Next.js</span>
         </div>
       </div>
-    </section>
 
-    <section id="contact" class="contact">
-      <h2>Contact with Me</h2>
-      <form>
-        <input type="text" placeholder="please type your name">
-        <input type="email" placeholder="please type your Email">
-        <textarea placeholder="Type your message"></textarea>
-        <button type="button">Send</button>
-      </form>
-    </section>
-  </main>
+      <div class="skill-block">
+        <h4>Familiar:</h4>
 
-  <footer>
-    <p>Copyright &copy; 2021 | jahid_hossain</p>
-    <p>Dhaka,Bangladesh</p>
-    <div class="footer-socials">
-  <a href="https://github.com/swejahid" target="_blank">
-    <i class="bi bi-github"></i>
-  </a>
+        <div class="tags">
+          <span>C++</span>
+          <span>Python</span>
+          <span>Spring Boot</span>
+          <span>Networking</span>
+        </div>
+      </div>
 
-  <a href="#">
-    <i class="bi bi-linkedin"></i>
-  </a>
+    </div>
 
-  <a href="#">
-    <i class="bi bi-youtube"></i>
-  </a>
-</div>
-  </footer>
+    <div id="about" class="education">
+
+      <i class="bi bi-mortarboard-fill"></i>
+
+      <div>
+        <h3>My Education</h3>
+
+        <p>B.Sc in Software Engineering</p>
+        <p>Daffodil International University</p>
+        <p>2024 - 2028</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+
+    <h2>Contact With Me</h2>
+
+    <form>
+
+      <input type="text" placeholder="Your Name">
+
+      <input type="email" placeholder="Your Email">
+
+      <textarea placeholder="Your Message"></textarea>
+
+      <button type="button">Send</button>
+
+    </form>
+
+  </section>
+
+</main>
+
+<footer>
+
+  <p>Copyright © 2026 | Jahid Hossain</p>
+  <p>Dhaka, Bangladesh</p>
+
+  <div class="footer-socials">
+
+    <a href="https://github.com/swejahid" target="_blank">
+      <i class="bi bi-github"></i>
+    </a>
+
+    <a href="#">
+      <i class="bi bi-linkedin"></i>
+    </a>
+
+    <a href="#">
+      <i class="bi bi-youtube"></i>
+    </a>
+
+  </div>
+
+</footer>
+
 </body>
 </html>
